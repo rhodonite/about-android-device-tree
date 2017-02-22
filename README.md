@@ -11,6 +11,7 @@ dtc -O dtb -o XXX.dtbo -b 0 -@ XXX.dts
 copy .dtbo into /system/vendor/firmware 
 
 and echo XXXXX > /sys/devices/bone_capemgr.9/slots
+
            ^
            |
            |
